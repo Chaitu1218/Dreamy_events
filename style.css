@@ -603,6 +603,13 @@ section{
    }
  }
  
+@media screen and (max-width: 322px){
+
+   h1,span{
+      margin-top: 2rem;
+   }
+}
+   
 
 @media (max-width:991px){
 
@@ -654,15 +661,6 @@ section{
   }
 
 }
-
-@media screen and (max-width: 322px){
-
-   h1,span{
-      margin-top: 2rem;
-   }
-}
-   
-
 
 @media (max-width: 767px) {
    h1 {
@@ -874,7 +872,7 @@ section{
        font-size: 1.8rem;
        position: absolute;
        margin-top: 7rem;
-       margin-left: 12.5rem;
+       margin-left: 12rem;
    }
 
    .slide p {
